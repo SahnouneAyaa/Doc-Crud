@@ -33,8 +33,7 @@ export default function Home() {
 
   // Handle booking functionality
   const handleDateClick = (date) => {
-    // Here, you would typically send a request to your backend to book the appointment for the user
-    // and update the database accordingly. For simplicity, we'll just update the frontend state here.
+
 
     // Find the date object in scheduleData
     const bookedDate = scheduleData.find(item => item.date === date);
