@@ -3,7 +3,6 @@ import { format, addDays } from 'date-fns';
 
 export default function Home() {
   const [scheduleData, setScheduleData] = useState([]);
-
   useEffect(() => {
     const fetchScheduleData = async () => {
       try {
